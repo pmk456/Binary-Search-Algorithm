@@ -11,7 +11,7 @@ int binary_search(int arr[], int upper, int n){
 }
 int main(){
   int arr[] = {1, 3, 6, 9, 12, 45, 66, 88, 120};
-  int size = sizeof(arr)/sizeof(arr[0];
+  int size = sizeof(arr)/sizeof(arr[0]);
   int upper = size - 1;
   int result = binary_search(arr, upper, 45);
   if(result != -1){
