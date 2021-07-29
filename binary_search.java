@@ -14,5 +14,5 @@ public class binary_search{
   int result = binary_search(arr, 45);
   if(result != -1) System.out.print("Found At index "+result);
   else System.out.print("Not Found");
-}
+ }
 }
